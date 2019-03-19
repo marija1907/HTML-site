@@ -1,0 +1,721 @@
+@charset "utf-8";
+/* CSS Document */
+body { /* body za sve stranice */
+	margin: 0;
+	padding: 0;
+	background: #7EA8F3;
+	font-family: Alegreya, "Times New Roman", Arial, Helvetica, Times, serif;
+	font-size: 14px;
+}
+#wrapper { /* wrapper za sve stranice */
+	width:1200px;
+	border:#000000 1px solid;
+	padding:15px;
+	margin:30px auto;
+	background:#374DCF;
+	border-radius:5px;
+	box-shadow:0 2px 5px #555555;
+}
+.social_icon{
+	float:left;
+	width:117px;
+	padding:10px;
+	margin-top:30px;
+}
+.logo{	
+	float:right;
+	padding:10px;
+	width:170px;
+	}
+.logo img{
+	opacity:0.5;
+	border-radius:10px;
+	
+	}
+#header{ /* header za sve stranice */
+	background-image: url(images/prolom.banja.jpg);
+	background-repeat: no-repeat;
+	border: #000000 1px solid;
+	align-content: center;
+	margin-bottom: 15px;
+	padding: 10px;
+	border-radius: 10px;
+	overflow: hidden;
+	background-attachment: scroll;
+	background-position: center;
+	background-size: 100% 100%;
+	}
+#nav{
+	height:80px;
+	clear:both;
+	}
+#nav ul {
+	list-style: none;	
+}
+.meni{ /* meni za sve stranice */
+	border: 1px solid #374DCF;
+	display: inline;
+	margin: 10px;
+	font-family: euphoria-script;
+	text-align: center;
+	float: right;
+	box-shadow: 5px 5px 3px 0px;
+	box-shadow: #94080A;
+	font-style: normal;
+	font-weight: 400;
+
+	}
+#nav ul li{
+	font-style:italic;
+	font-size:26px;
+	padding:10px;
+	border-radius:10px;
+	background:#374DCF;
+	margin-left:5px;
+	/*transition:all 500ms linear;*/
+	}
+#nav ul li a:link,
+#nav ul li a:visited {
+	color:#000000;
+	text-decoration: none;	
+}
+#nav ul li a:hover {
+	color:#FFFFFF;
+	/*background:#550608;*/
+}
+#nav ul li a:active { /* nav za sve stranice */
+	color:#333333;
+	background:#CCCCCC;
+}
+#main h1{
+	background-color:#E1C847;
+	border-radius:10px;
+	}
+#main{
+	width:500px;
+	float:left;
+	padding:10px;
+	}
+#main h1{
+	text-align:center;
+	}
+#main p{
+	font-size:16px;
+	text-align:justify;
+	}
+iframe{
+	width:560px;
+	heigth:315px;
+		
+}
+#sidebar{
+	width:600px;
+	float:right;
+	background:#E1C847;
+	border-radius:10px;
+	margin-bottom:10px;
+}
+#sidebar p,
+#sidebar ul li{
+	font-size:16px;
+	text-align:justify;
+	}	
+#sidebar img{
+	width:560px;
+	padding:20px;
+	border-radius:10px;
+	}
+#sidebar p{
+	padding:5px;
+	margin:0;
+	}
+.paragraf.sidebar{
+	text-align:justify;
+	}
+#sidebar .centar{
+	text-align:center;
+	}	
+#karta{
+	width:500px;
+	border-radius:10px;
+	background-color:#E1C847;
+	}
+#karta img{
+	width:480px;
+	border-radius:10px;
+	padding:10px;	
+	}
+#karta p{
+	padding:0;
+	margin:0;
+	text-align:center;
+}	
+#footer{
+   height:40px;
+   margin: auto;
+   margin-top:10px;
+   background-color:#E1C847;
+   clear:both;
+   border-radius:10px;	
+	}	/* footer za sve stranice */
+#footer p{
+	text-align:center;
+	padding:5px;	
+}
+#main_istorija{ /* stranica_Istorija */
+	width:500px;
+	float:left;
+	padding:10px;
+	}
+#main_istorija p{
+	font-size:16px;
+	text-align:justify;
+}
+#slika_istorija{
+	width:490px;
+	padding:5px;
+	border-radius:10px;
+	background-color:#E1C847;
+	}
+#slika_istorija img{
+	width:480px;
+	height:300px;
+	display:block;
+	padding:5px;
+	border-radius:10px;
+	}
+#sidebar_istorija{
+	width:600px;
+	float:right;
+	background:#E1C847;
+	border-radius:10px;
+	}
+#sidebar_istorija p{
+	font-size:16px;
+	text-align:justify;
+	padding:5px;
+	margin:0;
+	}	
+#sidebar_istorija_1{
+	width:600px;
+	float:right;
+	border-radius:10px;
+	margin-top:10px;
+	}
+#sidebar_istorija_1 img{
+	width:590px;
+	height:450px;
+	padding:5px;
+	border-radius:10px;
+	}	
+#sidebar_istorija_1 p{
+	padding:0;
+	margin:0;
+	text-align:center;
+	}
+/* end druga stranica */
+/* treca stranica Turizam 
+#main_turizam{
+	float:left;
+	width:500px;
+	padding:15px;
+	margin-bottom:20px;
+	background-color:#E1C847;
+	border-radius:10px;
+	margin-right:5px;
+}
+#prolom{
+	float:left;
+	width:480px;
+	height:300px;
+	margin-bottom:10px;
+	border-radius:10px;
+	}
+#main_turizam_1{
+	width:500px;
+	padding:15px;
+	margin-bottom:20px;
+	margin-right:5px;
+	float:right;
+	background-color:#E1C847;
+	border-radius:10px;
+	}
+  #lukovska{
+  display:block;
+  float:right;
+  width:480px;
+  height:300px;
+  margin-bottom:10px;
+  border-radius:10px;
+  }
+
+#dj_varos{
+	width:300px;
+	height:180px;
+	border: 8px solid #E1C847;
+	margin-bottom:10px;
+	margin-right:80px;
+	border-radius:10px;
+	}
+.par_turizam{
+	font-size:16px;
+	text-align:justify;
+	font-family:Alegreya, "Times New Roman", Arial, Helvetica, Times, serif;
+	padding:5px;
+	} */
+	#main_turizam{
+		border:2px solid black;
+		float:left;
+		padding:5px;
+		margin-right:15px;
+		margin-left:60px;
+		background-color:#E1C847;
+		border-radius:10px;
+		}
+	.prolom{
+		width:305px;
+		height:170px;
+		display:block;
+		border-radius:10px;
+		margin:15px;
+		transition: margin 0.5s ease-out; /*ovo je za Interent Eksplorer 10*/
+-webkit-transition: margin 0.5s ease-out;
+-moz-transition: margin 0.5s ease-out;
+-o-transition: margin 0.5s ease-out;
+		}
+	#main_turizam_1{
+		border: 2px solid black;
+		float:left;
+		padding:5px;
+		margin-right:15px;
+		background-color:#E1C847;
+		border-radius:10px;
+		}
+	.lukovska{
+		width:305px;
+		height:170px;
+		display:block;
+		border-radius:10px;
+		margin:15px;
+		transition: margin 0.5s ease-out; /*ovo je za Interent Eksplorer 10*/
+-webkit-transition: margin 0.5s ease-out;
+-moz-transition: margin 0.5s ease-out;
+-o-transition: margin 0.5s ease-out;
+		}
+	#main_turizam_2{
+		border:2px solid black;
+		background-color:#E1C847;
+		float:left;
+		padding:5px;
+		margin-right:15px;
+		border-radius:10px;
+		}
+	.dj_varos{
+		width:305px;
+		height:170px;
+		display:block;
+		border-radius:10px;
+		margin:15px;
+		transition: margin 0.5s ease-out; /*ovo je za Interent Eksplorer 10*/
+-webkit-transition: margin 0.5s ease-out;
+-moz-transition: margin 0.5s ease-out;
+-o-transition: margin 0.5s ease-out;
+	}
+	.par_turizam{
+	clear:both;
+	font-size:16px;
+	text-align:justify;
+	font-family:Alegreya, "Times New Roman", Arial, Helvetica, Times, serif;
+	padding:5px;
+	}
+	#footer1{
+   height:40px;
+   margin: auto;
+   margin-top:10px;
+   background-color:#E1C847;
+   border-radius:10px;	
+		}
+	#footer1 p{
+	text-align:center;
+	padding:5px;
+	}
+	#kontakt{
+	background-color:rgba(47,69,171,0.58);
+	margin:5px;		
+		}
+	label{
+	margin:5px;
+	margin-left:10px;	
+		}
+	input{
+	margin:5px;
+	margin-left:10px;
+	border-radius:5px;
+	box-shadow:0 2 2 2;
+	width:400px;	
+		}
+	textarea{
+	margin:5px;
+	margin-left:10px;
+	width:400px;
+	height:250px;
+	border-radius:5px;
+	box-shadow:0 2 2 2;	
+		}
+	#submit{
+	width:100px;
+	background-color:#374DCF;
+	}
+	.kontakt{
+	margin:5px;	
+		}
+	
+	#nav ul li{
+	background-color:#4153BE;
+	padding:10px;
+	font-size:40px;	
+	}
+	#mainm img:hover{
+	margin:2px;
+		}
+	@media screen and (min-width:1024px) and (max-width:1260px) {
+/* ovde idu opisi za prikaz između 1024 i 1260 piksela */
+		#wrapper{
+			width:900px;	
+		}
+		iframe{
+			width:400px;
+			height:300;
+		}
+		#sidebar{
+			width:480px;
+		}
+		#sidebar img{
+			width:440px;
+			pading:10px;
+			margin:auto;
+		}
+		#main{
+			width:380px;
+		}
+		#karta{
+			width:370px;
+		}
+		#karta img{
+			width:360px;
+			padding:5px;
+		}
+		#main_istorija{
+			width:380px;
+		}
+		#slika_istorija{
+			width:370px;
+		}
+		#slika_istorija img{
+			width:360px;
+		}
+		#sidebar_istorija{
+			width:480px;
+		}
+		#sidebar_istorija_1{
+			width:480px;
+		}
+		#sidebar_istorija_1 img{
+			width:470px;
+		}
+		.prolom{
+			width:230px;
+			margin: 10px;
+		}
+		.lukovska{
+			width:230px;
+			margin: 10px;
+		}
+		.dj_varos{
+			width:230px;
+			margin: 10px;
+		}
+		#main_turizam_1{
+			margin-right: 10px;
+		}
+		#main_turizam{
+			margin-left:40px;
+		}
+		#main_turizam_2{
+			margin-right:10px;
+		}
+		
+}
+ 
+@media screen and (min-width:768px) and (max-width:1023px) {
+/* ovde idu opisi za prikaz između 768 i 1023 piksela */
+		#wrapper{
+			width:95%;	
+		}
+		iframe{
+			width:90%;
+			height:200;
+		}
+		#sidebar{
+			width:45%;
+		}
+		#sidebar img{
+			width:90%;
+			pading:10px;
+			margin:auto;
+		}
+		#main{
+			width:50%;
+		}
+		#karta{
+			width:90%;
+		}
+		#karta img{
+			width:85%;
+			padding:5px;
+		}
+		#main_istorija{
+			width:360px;
+		}
+		#slika_istorija{
+			width:350px;
+		}
+		#slika_istorija img{
+			width:350px;
+		}
+		#sidebar_istorija{
+			width:380px;
+		}
+		#sidebar_istorija_1{
+			width:380px;
+		}
+		#sidebar_istorija_1 img{
+			width:400px;
+		}
+		.prolom{
+			width:200px;
+			margin: 5px;
+			margin-left: 10px;
+			display: inline;
+		}
+		.lukovska{
+			width:200px;
+			margin: 5px;
+			display: inline;
+			margin-left: 10px;
+		}
+		.dj_varos{
+			width:200px;
+			margin: 5px;
+			margin-left: 10px;
+			display: inline;
+		}
+		#main_turizam{
+			margin: auto;
+			margin-left:5px;
+			float:none;
+			margin-right: 5px;
+			
+		}
+		#main_turizam_1{
+			margin: auto;
+			margin-right: 5px;
+			float:none;
+			margin-left:5px;
+		}
+		#main_turizam_2{
+			margin: auto;
+			margin-right:5px;
+			margin-bottom: 5px;
+			float:none;
+			margin-left:5px;
+		}
+	#mainm{
+		width:95%;
+		margin:0;
+	}
+	.par_turizam{
+	font-size:14px;
+	}
+	#kontakt{
+	width: 80%;
+	background-color:rgba(47,69,171,0.58);
+	margin: 5px;	
+		}
+	label{
+	margin:5px;	
+		}
+	input{
+	margin:5px;
+	border-radius:5px;
+	box-shadow:0 2 2 2;
+	width:80%;	
+		}
+	textarea{
+	margin:5px;
+	width:80%;
+	height:250px;
+	border-radius:5px;
+	box-shadow:0 2 2 2;	
+		}
+	#submit{
+	width:100px;
+	background-color:#374DCF;
+	}
+	.kontakt{
+	margin:5px;	
+		}
+		
+	
+}
+ 
+@media screen and (max-width:767px) {
+/* ovde idu opisi za prikaz manji od 768 piksela */
+	#wrapper{
+			width:95%;	
+		}
+	
+		iframe{
+			width:90%;
+			height:200px;
+			margin:0 auto;
+			margin-left:20px;
+		}
+		#sidebar{
+			width:95%;
+			margin: 0 auto;
+			margin-right: 20px;
+			margin-bottom: 10px;
+		}
+		#sidebar img{
+			width:90%;
+			margin:0 auto;
+		}
+		#main{
+			width:90%;
+		}
+		#karta{
+			width:100%;
+		}
+		#karta img{
+			width:95%;
+			margin: 0 auto;
+			margin-right: 10px;
+		}
+		#main_istorija{
+			width:95%;
+			margin: 0 auto;
+		}
+		#main_istorija img{
+			width: 90%;
+			margin: 0 auto;
+		}
+		#slika_istorija{
+			width:90%;
+			margin:0 auto;
+			margin-right: 30px;
+		}
+		#slika_istorija img{
+			width:98%;
+			margin:0 auto;
+		}
+		#sidebar_istorija{
+			width:95%;
+			margin-right: 20px;
+		}
+		#sidebar_istorija_1{
+			width:90%;
+			margin-right: 10px;
+		}
+		#sidebar_istorija_1 img{
+			width:85%;
+			height: 300px;
+		}
+		.prolom{
+			width:95%;
+			margin: 5px;
+			display:block;
+		}
+		.lukovska{
+			width:95%;
+			margin: 5px;
+			display: block;
+		}
+		.dj_varos{
+			width:95%;
+			margin: 5px;
+			display: block;
+		}
+		#main_turizam{
+			margin:0;
+			float:none;	
+		}
+		#main_turizam_1{
+			margin:0;
+			float:none;
+		}
+		#main_turizam_2{
+			margin:0;
+			float:none;
+		}
+	#mainm{
+		width:97%;
+		margin:0;
+	}
+	.par_turizam{
+	font-size:16px;
+	}
+		
+	#kontakt{
+	width: 80%;
+	background-color:rgba(47,69,171,0.58);
+	margin: 5px;	
+		}
+	label{
+	margin:5px;	
+		}
+	input{
+	margin:5px;
+	border-radius:5px;
+	box-shadow:0 2 2 2;
+	width:80%;	
+		}
+	textarea{
+	margin:5px;
+	width:80%;
+	height:250px;
+	border-radius:5px;
+	box-shadow:0 2 2 2;	
+		}
+	#submit{
+	width:100px;
+	background-color:#374DCF;
+	}
+	.kontakt{
+	margin:5px;	
+		}
+	#nav ul li{
+	width: 200px;
+	font-style:normal;
+	font-size:24px;
+	padding:5px;
+	border-radius:5px;
+	background:#374DCF;
+	}
+	#footer{
+    margin:0 auto;
+    width: 100%;
+	}
+
+		
+	
+	
+
+}
+
+  
+	
+	
+		
+	
+	
